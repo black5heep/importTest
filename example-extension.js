@@ -177,7 +177,7 @@ ExampleExtension.prototype.getInfo = function () {
 
         // Optional: translations
         translation_map: {
-            de: {
+            'zh-cn': {
                 'extensionName': '中文',
                 'myReporter': '是 [LETTER_NUM] von [TEXT]',
                 'myReporter.TEXT_default': '文本',
