@@ -178,6 +178,18 @@ ExampleExtension.prototype.getInfo = function () {
         // Optional: translations
         translation_map: {
             de: {
+                'extensionName': '中文',
+                'myReporter': '是 [LETTER_NUM] von [TEXT]',
+                'myReporter.TEXT_default': '文本',
+                'menuA_item1': '菜单1',
+
+                // Dynamic menus can be translated too
+                'menuB_example': 'Beispiel',
+
+                // This message contains ICU placeholders (see `myReporter()` below)
+                'myReporter.result': 'Buchstabe {LETTER_NUM} von {TEXT} ist {LETTER}.'
+            },
+            de: {
                 'extensionName': 'Einige Blöcke',
                 'myReporter': 'Buchstabe [LETTER_NUM] von [TEXT]',
                 'myReporter.TEXT_default': 'Text',
